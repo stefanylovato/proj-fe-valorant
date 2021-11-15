@@ -6,4 +6,9 @@
     padding: 15px;
     background: #000;
     color: white;
+    font-size: 14px;
+}
+
+#footer h3::first-letter{
+    color: red;
 }

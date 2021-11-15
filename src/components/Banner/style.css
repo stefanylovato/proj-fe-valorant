@@ -2,4 +2,26 @@
 #banner iframe{
     width: 100%;
     height: calc(100vh - 81px);
+    background-image: url('https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_VALORANT_RiotGames_S1_2560x1440-c0299dc8769c6a944610e56e22fa89d9');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .banner-text{
+    color: white;
+    text-shadow: 5px 5px 5px #222;
+    text-align: center;
+    width: 50%;
+}
+
+#banner .banner-text h2{
+    font-size: 50px;
+}
+
+#banner .banner-text p{
+    font-size: 20px;
 }
