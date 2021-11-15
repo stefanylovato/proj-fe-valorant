@@ -1,16 +1,21 @@
 import Header from './components/Header';
+import Banner from './components/Banner';
+import Valorant from './components/Valorant';
+import Galeria from './components/Galeria';
+import Footer from './components/Footer';
 import './App.css';
+
 
 function App() {
   return (
     <div>
       <Header />
       <main>
-        <section id="banner"></section>
-        <section id="valorant"></section>
-        <section id="galeria"></section>
+        <Banner />
+        <Valorant />
+        <Galeria />
       </main>
-      <footer></footer>
+      <Footer />
     </div>
   );
 }
